@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="TIC_TAK_TOE" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VTs-2R-Ter">
+                                <rect key="frame" x="58.666666666666657" y="370.66666666666669" width="276" height="111"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qnb-4s-rql">
+                                        <rect key="frame" x="184" y="12" width="76" height="88"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="" cornerStyle="large">
+                                            <fontDescription key="titleFontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="72"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="onSuareTab:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lQA-ji-XtO"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xVb-5L-Nbl">
+                                        <rect key="frame" x="100" y="13" width="76" height="86"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="" cornerStyle="large">
+                                            <fontDescription key="titleFontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="72"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="onSuareTab:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hcf-xw-cKp"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Ft-RQ-tUl">
+                                        <rect key="frame" x="16" y="13" width="76" height="86"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="" cornerStyle="large">
+                                            <fontDescription key="titleFontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="72"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="onSuareTab:" destination="BYZ-38-t0r" eventType="touchUpInside" id="njg-ZA-Ya9"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="111" id="Pnf-Uw-E1D"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="276" id="bev-tb-T4J"/>
+                                    <constraint firstAttribute="height" constant="111" id="i5f-QP-8Fy"/>
+                                    <constraint firstAttribute="width" constant="276" id="u9G-ay-kzF"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SgA-dK-Ud4">
+                                <rect key="frame" x="58.666666666666657" y="370.66666666666669" width="276" height="111"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="POs-ZS-VHq">
+                                        <rect key="frame" x="100" y="13" width="76" height="86"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="" cornerStyle="large">
+                                            <fontDescription key="titleFontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="72"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="onSuareTab:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4SZ-3t-hfk"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="asl-6y-jGn">
+                                        <rect key="frame" x="16" y="13" width="76" height="86"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="" cornerStyle="large">
+                                            <fontDescription key="titleFontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="72"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="onSuareTab:" destination="BYZ-38-t0r" eventType="touchUpInside" id="e6N-1Y-Sr8"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kGK-TC-OOb">
+                                        <rect key="frame" x="184" y="12" width="76" height="88"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="" cornerStyle="large">
+                                            <fontDescription key="titleFontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="72"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="onSuareTab:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hV1-uv-YCm"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="276" id="Dip-J9-ghk"/>
+                                    <constraint firstAttribute="height" constant="111" id="gZa-zj-RAJ"/>
+                                    <constraint firstAttribute="width" constant="276" id="hiG-R3-TXZ"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="111" id="jfx-zd-l0i"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qfW-DW-kfJ">
+                                <rect key="frame" x="58.666666666666657" y="370.66666666666669" width="276" height="111"/>
+                                <subviews>
+                                    <button opaque="NO" tag="5" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yVf-b5-3X4">
+                                        <rect key="frame" x="100" y="11" width="76" height="86"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="" cornerStyle="large">
+                                            <fontDescription key="titleFontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="72"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="onSuareTab:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3Kl-Bp-kGt"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="4" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fHw-Kx-9ov">
+                                        <rect key="frame" x="16" y="12" width="76" height="85"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="" cornerStyle="large">
+                                            <fontDescription key="titleFontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="72"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="onSuareTab:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Kxd-JR-C9Q"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="6" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U0N-XJ-vQ6">
+                                        <rect key="frame" x="184" y="12" width="76" height="85"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="" cornerStyle="large">
+                                            <fontDescription key="titleFontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="72"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="onSuareTab:" destination="BYZ-38-t0r" eventType="touchUpInside" id="65B-1A-SzU"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="111" id="Bby-dh-vaH"/>
+                                    <constraint firstAttribute="width" constant="276" id="Xc2-6n-lZj"/>
+                                    <constraint firstAttribute="height" constant="111" id="jXa-ba-VMw"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="276" id="t0c-Yi-hX7"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gn0-tD-TFe">
+                                <rect key="frame" x="58" y="462" width="276" height="111"/>
+                                <subviews>
+                                    <button opaque="NO" tag="8" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Q3-Yq-Ii6">
+                                        <rect key="frame" x="100" y="11" width="76" height="86"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="" cornerStyle="large">
+                                            <fontDescription key="titleFontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="72"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="onSuareTab:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zJX-Do-cxb"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="7" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yGy-qg-WtH">
+                                        <rect key="frame" x="16" y="12" width="76" height="85"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="" cornerStyle="large">
+                                            <fontDescription key="titleFontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="72"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="onSuareTab:" destination="BYZ-38-t0r" eventType="touchUpInside" id="piA-8A-0dr"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="9" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3dE-v7-on8">
+                                        <rect key="frame" x="184" y="12" width="76" height="85"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="" cornerStyle="large">
+                                            <fontDescription key="titleFontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="72"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="onSuareTab:" destination="BYZ-38-t0r" eventType="touchUpInside" id="geg-S1-Bwe"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="111" id="99q-ZP-3Sb"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="111" id="TUF-Ek-anL"/>
+                                    <constraint firstAttribute="width" constant="276" id="Tf8-9g-zO2"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="276" id="tr3-V2-xA2"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QY4-lN-KiW">
+                                <rect key="frame" x="58" y="272" width="276" height="111"/>
+                                <subviews>
+                                    <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Hu-6e-Mrw">
+                                        <rect key="frame" x="100" y="11" width="76" height="86"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="" cornerStyle="large">
+                                            <fontDescription key="titleFontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="72"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="onSuareTab:" destination="BYZ-38-t0r" eventType="touchUpInside" id="I3x-h1-hLR"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3N2-tM-xPw">
+                                        <rect key="frame" x="16" y="12" width="76" height="85"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="" cornerStyle="large">
+                                            <fontDescription key="titleFontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="72"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="onSuareTab:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Cog-La-vFi"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="3" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B2z-5p-Qjv">
+                                        <rect key="frame" x="184" y="12" width="76" height="85"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="" cornerStyle="large">
+                                            <fontDescription key="titleFontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="72"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="onSuareTab:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vaJ-S9-ue8"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="276" id="JoB-tM-N48"/>
+                                    <constraint firstAttribute="width" constant="276" id="Wol-zt-Zth"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="111" id="jyh-hH-dCD"/>
+                                    <constraint firstAttribute="height" constant="111" id="v04-Wf-ltV"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xr0-Cm-9sD">
+                                <rect key="frame" x="138" y="614" width="124" height="58"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="CLEAR">
+                                    <fontDescription key="titleFontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="40"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="clearButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LcT-bz-PTB"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="qfW-DW-kfJ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="58.666666666666657" id="6hV-Bn-1GE"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="gn0-tD-TFe" secondAttribute="trailing" constant="59" id="9Dj-9b-QJF"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="VTs-2R-Ter" secondAttribute="trailing" constant="58.333333333333371" id="A7K-VH-eeZ"/>
+                            <constraint firstItem="qfW-DW-kfJ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="311.66666666666669" id="CjJ-3Y-1dM"/>
+                            <constraint firstItem="SgA-dK-Ud4" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="311.66666666666669" id="FOj-fr-aze"/>
+                            <constraint firstItem="qfW-DW-kfJ" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="LtX-N0-Rs0"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="gn0-tD-TFe" secondAttribute="bottom" constant="245" id="ODl-Nh-mLT"/>
+                            <constraint firstItem="VTs-2R-Ter" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="ORS-0r-oJb"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="SgA-dK-Ud4" secondAttribute="trailing" constant="58.333333333333371" id="QFs-jy-N5N"/>
+                            <constraint firstItem="QY4-lN-KiW" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="213" id="S57-et-XOi"/>
+                            <constraint firstItem="SgA-dK-Ud4" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Sv9-pZ-0IB"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="SgA-dK-Ud4" secondAttribute="bottom" constant="336.33333333333331" id="UgV-Xj-WbF"/>
+                            <constraint firstItem="gn0-tD-TFe" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="58" id="UhB-pd-5A8"/>
+                            <constraint firstItem="SgA-dK-Ud4" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Xql-bi-qYi"/>
+                            <constraint firstItem="gn0-tD-TFe" firstAttribute="top" secondItem="QY4-lN-KiW" secondAttribute="bottom" constant="79" id="YEu-Ik-QX9"/>
+                            <constraint firstItem="VTs-2R-Ter" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="311.66666666666669" id="Yfm-fb-Dac"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="qfW-DW-kfJ" secondAttribute="trailing" constant="58.333333333333371" id="Z7s-gK-4GU"/>
+                            <constraint firstItem="qfW-DW-kfJ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="a0y-q5-sor"/>
+                            <constraint firstItem="SgA-dK-Ud4" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="58.666666666666657" id="f1M-Fb-Y7C"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="QY4-lN-KiW" secondAttribute="trailing" constant="59" id="hQ2-sc-Rp6"/>
+                            <constraint firstItem="QY4-lN-KiW" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="58" id="q9N-hA-PL0"/>
+                            <constraint firstItem="VTs-2R-Ter" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="58.666666666666657" id="qCg-wS-gX8"/>
+                            <constraint firstItem="VTs-2R-Ter" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="t92-c1-qOQ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="VTs-2R-Ter" secondAttribute="bottom" constant="336.33333333333331" id="vHX-or-4lv"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="qfW-DW-kfJ" secondAttribute="bottom" constant="336.33333333333331" id="wKM-cD-r8w"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="54.198473282442748" y="-34.507042253521128"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
